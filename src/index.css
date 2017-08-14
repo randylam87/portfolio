@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.page {
+  height: calc(100vh - 56px);
+}
+
+#landing {
+  background-color: cornflowerblue;
+  height: 100vh;
+}
+
+#about {
+  background-color: honeydew;
+}
+
+#skills {
+  background-color: lightgrey;
+
+}
+#projects {
+  background-color: thistle;
+}
