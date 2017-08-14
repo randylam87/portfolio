@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Jumbotron, Container, Row, Col} from 'reactstrap';
+import { Container } from 'reactstrap';
 
 class Landing extends Component {
   render() {
