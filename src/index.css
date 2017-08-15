@@ -18,9 +18,14 @@ body {
 }
 
 #skills {
-  background-color: lightgrey;
+  background-color: whitesmoke;
 
 }
 #projects {
   background-color: thistle;
+}
+
+.skills:hover {
+  border: 1px solid lightgrey;
+  border-radius: 15px;
 }
