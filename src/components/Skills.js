@@ -8,7 +8,7 @@ class Skills extends Component {
         <div className='page text-center d-flex align-items-center' id='skills'>
           <Container>
             <div className='page-header'>
-            <h1><strong>Skills</strong></h1>
+              <h1><strong>Skills</strong></h1>
             </div>
               <Row>  
                 <Col xs={12}>
