@@ -8,7 +8,6 @@ class Landing extends Component {
           <Container>
             <h1>Landing Page</h1>
           </ Container>
-        
       </div>
 
     );
