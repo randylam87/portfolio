@@ -24,8 +24,14 @@ body {
 #projects {
   background-color: thistle;
 }
-
+.skills {
+  padding: 15px;
+}
 .skills:hover {
   border: 1px solid lightgrey;
   border-radius: 15px;
+}
+
+.page-header {
+  padding: 8vh;
 }

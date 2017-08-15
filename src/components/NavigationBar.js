@@ -30,29 +30,28 @@ class NavigationBar extends Component {
   render() {
     return (
       <div className='navigation'>
-        <Navbar className='fixed-top' color="faded" light toggleable>
-          <Container>
+        <Container>
+          <Navbar className='fixed-top' color="faded" light toggleable>
             <NavbarToggler right onClick={this.toggle}/>
             <NavbarBrand href="/">Randy Lam</NavbarBrand>
             <Collapse isOpen={this.state.isOpen} navbar>
               <Nav className="ml-auto" navbar>
                 <NavItem>
-                  <NavLink href="#">About</NavLink>
+                  <NavLink href="#about">About</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink href="#">Skills</NavLink>
+                  <NavLink href="#skills">Skills</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink href="#">Projects</NavLink>
+                  <NavLink href="#projects">Projects</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink href="#">Contact</NavLink>
+                  <NavLink href="#contact">Contact</NavLink>
                 </NavItem>
               </Nav>
             </Collapse>
-          </ Container>
-        </Navbar>
-
+          </Navbar>
+        </ Container>
       </div>
     );
   }

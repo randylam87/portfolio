@@ -7,7 +7,9 @@ class Skills extends Component {
     return (
         <div className='page text-center d-flex align-items-center' id='skills'>
           <Container>
-            <h1>Skills Page</h1>
+            <div className='page-header'>
+            <h1><strong>Skills</strong></h1>
+            </div>
               <Row>  
                 <Col xs={12}>
                 <Row id='skills-container'>
