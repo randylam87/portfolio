@@ -5,12 +5,47 @@ body {
 }
   
 .page {
-  height: calc(100vh - 56px);
+  height: calc(100vh);
+}
+
+#navigation {
+  border-bottom: 1px grey solid;
+   opacity: 0.25; 
+  background-color: black; 
+  color: white;
+  text-shadow: 2px 2px 3px #000, -1px -1px 1px #000;
 }
 
 #landing {
+  background-image: url('./landing2.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   background-color: cornflowerblue;
   height: 100vh;
+}
+
+#landing-title {
+  position: relative;
+  top: 56px;
+  padding: 5vh;
+}
+
+@media (min-width: 768px) {
+  #landing-title {
+    font-size: 3em;
+  }
+}
+@media (min-width: 1200px) {
+  #landing-title {
+    font-size: 4em;
+  }
+}
+.page-title {
+  text-decoration: none;
+  color: white;
+  padding: 1em;
+  text-shadow: 2px 2px 3px #000, -1px -1px 1px #000;
 }
 
 #about {

@@ -29,24 +29,24 @@ class NavigationBar extends Component {
   }
   render() {
     return (
-      <div className='navigation'>
+      <div>
         <Container>
-          <Navbar className='fixed-top' color="faded" light toggleable>
+          <Navbar className='fixed-top' toggleable id='navigation'> 
             <NavbarToggler right onClick={this.toggle}/>
-            <NavbarBrand href="/">Randy Lam</NavbarBrand>
+            <NavbarBrand href="/" className='page-title'>Randy Lam</NavbarBrand>
             <Collapse isOpen={this.state.isOpen} navbar>
               <Nav className="ml-auto" navbar>
                 <NavItem>
-                  <NavLink href="#about">About</NavLink>
+                  <NavLink className='page-title' href="#about">About</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink href="#skills">Skills</NavLink>
+                  <NavLink className='page-title' href="#skills">Skills</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink href="#projects">Projects</NavLink>
+                  <NavLink className='page-title' href="#projects">Projects</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink href="#contact">Contact</NavLink>
+                  <NavLink className='page-title' href="#contact">Contact</NavLink>
                 </NavItem>
               </Nav>
             </Collapse>

@@ -4,9 +4,10 @@ import { Container } from 'reactstrap';
 class Landing extends Component {
   render() {
     return (
-      <div className='text-center d-flex align-items-center' id='landing'>
+      <div className='text-center d-flex justify-content-center' id='landing'>
           <Container>
-            <h1>Landing Page</h1>
+            <h1 className='page-title' id='landing-title'><strong>Randy Lam</strong></h1>
+            <p className='page-title'><strong>Web Developer</strong></p>
           </ Container>
       </div>
 
