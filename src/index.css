@@ -36,11 +36,13 @@ body {
     font-size: 3em;
   }
 }
+
 @media (min-width: 1200px) {
   #landing-title {
     font-size: 4em;
   }
 }
+
 .page-title {
   text-decoration: none;
   color: white;
@@ -49,19 +51,26 @@ body {
 }
 
 #about {
-  background-color: honeydew;
+  background-color: #909090;
 }
 
 #skills {
-  background-color: whitesmoke;
+  background-color: lightgrey;
 
 }
+
 #projects {
-  background-color: thistle;
+  background-color: whitesmoke;
 }
+
+#contact {
+  background-color: lightgrey;
+}
+
 .skills {
   padding: 15px;
 }
+
 .skills:hover {
   border: 1px solid lightgrey;
   border-radius: 15px;
@@ -69,4 +78,8 @@ body {
 
 .page-header {
   padding: 8vh;
+}
+
+#about-img {
+  padding-left: 0px;
 }
