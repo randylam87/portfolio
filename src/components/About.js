@@ -25,12 +25,8 @@ class About extends Component {
                 </p>
                 <p>Nostrum nam assumenda, velit nobis quis at quisquam accusamus, cum quo sunt enim unde laudantium officiis deleniti et! Facere molestias odit doloribus libero vel dolores veniam minima quas nobis accusantium.
                 </p>
-                <p>Reprehenderit, fuga a. Sequi quas qui fugit molestiae quasi ratione reiciendis perferendis unde vitae enim et nesciunt doloribus quia, repudiandae ea fuga. Magnam, ratione suscipit nobis facere ab ducimus ipsa!
-                </p>
               </ Col>
               </ Row>
-            
-            
           </ Container>
         </div>
       
